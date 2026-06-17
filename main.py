@@ -1,3 +1,4 @@
+import tkinter as tk
 import os
 import sys
 import time
@@ -12,7 +13,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.messages import HumanMessage, SystemMessage
 
 # Standard Native Stable GUI Desktop Library Systems
-import tkinter as tk
+
 from tkinter import ttk, messagebox, filedialog
 
 # ==========================================
